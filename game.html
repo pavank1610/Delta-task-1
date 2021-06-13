@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <style>
+        .grid-container {
+  display: grid;
+  grid-template-columns: 75px 75px 75px;
+  grid-template-rows: 75px 75px 75px;
+  border-radius:10px ;
+  
+  grid-column-gap: 10px;
+  grid-row-gap:10px ;
+}
+.grid-item {
+  
+  border: 3px solid ;
+  border-color: white;
+  background-color: pink;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+*{
+  background-color:black ;
+}
+.button{
+  background-color: ivory;
+  text-align: center;
+  border: black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  font-size: large;
+  }
+.button:hover{
+  background: transparent;
+  border: 2px solid white;
+}
+.grid-container1
+{
+  display: grid;
+  grid-template-columns: 75px 75px 75px 75px 75px;
+  grid-template-rows: 75px 75px 75px 75px 75px;
+  border-radius: 5px;
+  grid-column-gap: 10px;
+  grid-row-gap:10px ;
+}
+.grid{
+  border: 3px solid ;
+border-color: white;
+  background-color: pink;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+    </style>
+</head>
+<body style="text-align: center;">
+    <div style="display: flex;justify-content: center;">
+     <div class="grid-container" >
+        <div class="grid-item" id="1"> </div>
+        <div class="grid-item" id="2"> </div>
+        <div class="grid-item" id="3"> </div> 
+        <div class="grid-item" id="4"> </div>
+        <div class="grid-item" id="5"> </div>
+        <div class="grid-item" id="6"> </div>  
+        <div class="grid-item" id="7"> </div>
+        <div class="grid-item" id="8"> </div>
+        <div class="grid-item" id="9"> </div>  
+      </div>
+     </div>
+    <div style=" display: flex;justify-content: center;padding-top: 30px;">
+      <div class="grid-container1"> 
+        <div class="grid-item" id="10"></div>
+        <div class="grid-item" id="11"></div>
+        <div class="grid-item" id="12"></div>
+        <div class="grid-item" id="13"></div>
+        <div class="grid-item" id="14"></div>
+        <div class="grid-item" id="15"></div>
+        <div class="grid" id="16"></div>
+        <div class="grid" id="17"></div>
+        <div class="grid" id="18"></div>
+        <div class="grid-item" id="19"></div>
+        <div class="grid-item" id="20"></div>
+        <div class="grid" id="21"></div>
+        <div class="grid" id="22"></div>
+        <div class="grid" id="23"></div>
+        <div class="grid-item" id="24"></div>
+        <div class="grid-item" id="25"></div>
+        <div class="grid" id="26"></div>
+        <div class="grid" id="27"></div>
+        <div class="grid" id="28"></div>
+        <div class="grid-item" id="29"></div>
+        <div class="grid-item" id="30"></div>
+        <div class="grid-item" id="31"></div>
+        <div class="grid-item" id="32"></div>
+        <div class="grid-item" id="33"></div>
+        <div class="grid-item" id="34"></div>
+      </div>
+    </div>  
+       
+    
+       
+
+
+
+        
+
+
+  
+  
+    <div style="padding-top: 50px;">
+      <button class="button" id="btn" onClick="window.location.reload()" >CHANGE COLOUR</button>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+    <div style="color: blanchedalmond ; font-size: large;">Moves:<span id="moves"></span></div>
+    <div style="color: blueviolet ;font-size: large;">Time:<span id="time"></span></div>
+</body>
+</html>
